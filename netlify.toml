@@ -5,3 +5,12 @@
 
 [edge_functions]
   included_files = ["!**/node_modules/es5-ext/**"]
+[functions]
+  external_node_modules = ["some-other-dependency"]
+  included_files = []
+
+  # Exclude es5-ext
+  node_bundler = "esbuild"
+
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
