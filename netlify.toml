@@ -1,2 +1,7 @@
 [functions]
   included_files = ["!**/node_modules/es5-ext/**"]
+[functions]
+  included_files = ["!**/node_modules/es5-ext/**"]
+
+[edge_functions]
+  included_files = ["!**/node_modules/es5-ext/**"]
